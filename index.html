@@ -11,25 +11,57 @@
 
   <title>Frontend Mentor | Four card feature section</title>  
 </head>
-<body>
+<body class="flex items-center justify-center text-center w-screen h-full lg:h-screen bg-[var(--Very-Light-Gray)]">
+  <main class="flex flex-col w-full items-center justify-center mx-5 my-10 max-w-xs lg:max-w-xl">
+    <h1 class="font-extralight text-[var(--Very-Dark-Blue)] text-2xl mb-1">Reliable, efficient delivery</h1>
+    <h1 class="font-semibold text-2xl text-[var(--Very-Dark-Blue)] mb-4">Powered by Technology</h1>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+    <p class="font-normal text-base text-[var(--Grayish-Blue)] mb-12">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+  
+    <div class="lg:w-max lg:max-w-[83rem] lg:h-full lg:grid lg:grid-cols-3 lg:gap-6 lg:items-center lg:justify-items-center">
+      <div class="max-w-xs h-56 max-h-56 shadow-xl border-t-4 border-solid border-[var(--Cyan)] p-5 mb-6 lg:mb-0 rounded-lg text-left">
+        <div class="flex flex-col">
+          <strong class="font-semibold text-[var(--Very-Dark-Blue)] mb-1">Supervisor</strong>
+          <p class="font-normal text-sm text-[var(--Grayish-Blue)]">Monitors activity to identify project roadblocks</p>
+        </div>
+        <div class="flex items-center justify-end mt-10">
+          <img class="w-14 h-14" src="./images/icon-supervisor.svg" alt="">
+        </div>
+      </div>
+    
+      <div>
+        <div class="max-w-xs h-56 max-h-56 shadow-xl border-t-4 border-solid border-[var(--Red)] p-5 mb-6 lg:mb-6 rounded-lg text-left">
+          <div class="flex flex-col">
+            <strong class="font-semibold text-[var(--Very-Dark-Blue)] mb-1">Team Builder</strong>
+            <p class="font-normal text-sm text-[var(--Grayish-Blue)]">Scans our talent network to create the optimal team for your project</p>
+          </div>
+          <div class="flex items-center justify-end mt-10">
+            <img class="w-14 h-14" src="./images/icon-team-builder.svg" alt="">
+          </div>
+        </div>
+      
+        <div class="max-w-xs h-56 max-h-56 shadow-xl border-t-4 border-solid border-[var(--Orange)] p-5 mb-6 lg:mb-0 rounded-lg text-left">
+          <div class="flex flex-col">
+            <strong class="font-semibold text-[var(--Very-Dark-Blue)] mb-1">Karma</strong>
+            <p class="font-normal text-sm text-[var(--Grayish-Blue)]">Regularly evaluates our talent to ensure quality</p>
+          </div>
+          <div class="flex items-center justify-end mt-10">
+            <img class="w-14 h-14" src="./images/icon-karma.svg" alt="">
+          </div>
+        </div>
+      </div>
+    
+      <div class="max-w-xs h-56 max-h-56 shadow-xl border-t-4 border-solid border-[var(--Blue)] p-5 mb-6 lg:mb-0 rounded-lg text-left">
+        <div class="flex flex-col">
+          <strong class="font-semibold text-[var(--Very-Dark-Blue)] mb-1">Calculator</strong>
+          <p class="font-normal text-sm text-[var(--Grayish-Blue)]">Uses data from past projects to provide better delivery estimates</p>
+        </div>
+        <div class="flex items-center justify-end mt-10">
+          <img class="w-14 h-14" src="./images/icon-calculator.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
   
 </body>
 </html>
